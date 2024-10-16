@@ -36,6 +36,26 @@ O desafio para o dia é implementar uma fila simples para gerenciar pedidos de 
 ## Dia 5 - Pilhas - Pilha de Livros
 O desafio do dia é implementar uma pilha simples para gerenciar os livros da saga “As Crônicas de Gelo e Fogo” (Game of Thrones). Cada livro deve ter um nome e o número de páginas. O sistema deve permitir adicionar novos livros na pilha, remover livros, mostrar o livro que está no topo e listar todos os livros da pilha.
 
-• Solução do orientador:
+• Solução do orientador: https://github.com/alura-cursos/7daysofcode-estruturas-de-dados/tree/dia-05
 
 • Minhas observações: Assim como na fila, o exercício é simples e satisfatório. Sem dificuldades consegui finalizar o código, utilizando os conhecimentos adquiridos nos últimos desafios. Me sinto pronto para o próximo nível.
+
+## Dia 6 - Hashmaps - Pontuação em jogos online
+O desafio para o dia de hoje é implementar um sistema de pontuação para jogos online usando uma técnica de hashmap na sua linguagem preferida. Cada jogador terá um nome de usuário e um número de pontos associado, e o sistema deve permitir adicionar novos jogadores, atualizar a pontuação de jogadores existentes, remover jogadores e listar todos os jogadores em ordem decrescente de pontos, além de determinar qual jogador é o vencedor.
+
+• Solução do orientador: https://github.com/alura-cursos/7daysofcode-estruturas-de-dados/blob/dia-06/hash-map.py
+
+• Minhas observações: O exercício é simples, então busquei implementar a função lambda, que acabo de aprender em meus estudos para melhorar meu código. Não houve dificuldade no entendimento e implantação da maior parte das funções, exceto apenas pela listagem decrescente por pontuação, mas que foi resolvido com a aplicação do lambda. Minha solução ficou parcialmente semelhante à do orientador, mas um pouco mais verbosa, principalmente por eu ter adicionado métodos de verificações de inconsistências, como a existência (ou não) de um nome de jogador. Ainda assim, fico satisfeito com o resultado.
+
+## Dia 7 - Árvores - Estoque online
+Imagine que você está trabalhando em um sistema de gerenciamento de estoque de uma loja online. Você precisa implementar uma árvore binária que possa armazenar informações sobre os produtos em estoque. Cada nó na árvore deve representar um produto, e deve conter as seguintes informações:
+ID do produto (um número inteiro único);
+Nome do produto;
+Quantidade em estoque,
+Sua tarefa é implementar uma função que insere um novo produto na árvore com base no seu ID. A função deve receber como entrada o ID do novo produto, o nome e a quantidade em estoque. Se o ID já existir na árvore, a função deve atualizar as informações do produto.
+EXERCÍCIO OPCIONAL
+Como um desafio extra, você pode também implementar uma função que realiza a busca por um produto com base no seu ID e retorna suas informações.
+
+• Solução do orientador: 
+
+• Minhas observações: Uma estrutura nova para mim, então, comecei pelos estudos e... tive dificuldades. Assim como nas listas duplamente encadeadas, primeiro tive uma certa dificuldade em entender como o conceito se aplicaria ao código. Depois, entender como direcionar os novos inputs ao lado correto da árvore me deu outro nó na cabeça, mas com pesquisa eu consegui encontrar uma solução. Tive dificuldades, então refiz o exercício mais de uma vez para tentar assimilar tudo, mas creio ainda não ter compreendido com perfeição, então terei que aprofundar mais os estudos desse desafio. Por fim, inseri uma função extra, para listar todos os itens me informando em qual branch ele foi inserido, para fins de melhor entendimento.
